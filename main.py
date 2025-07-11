@@ -1,4 +1,5 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from contextlib import asynccontextmanager
 import tensorflow as tf
 import numpy as np
 import cv2
@@ -37,8 +38,8 @@ s3 = boto3.client(
     aws_secret_access_key=AWS_SECRET_ACCESS_KEY
 )
 
-@app.on_event("startup")
-async def load_model():
+@asynccontextmanager
+async def lifespan(app: FastAPI):
     global model, class_labels, disease_info
 
     logging.info("Downloading model from S3...")
