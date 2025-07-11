@@ -1,13 +1,5 @@
 services:
   - type: web
-    name: lumora-ai
-    env: python
-    plan: free
+    name: my-fastapi-app
+    env: docker
     branch: master
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "uvicorn main:app --host 0.0.0.0 --port 8000"
-    runtime: python
-    pythonVersion: 3.10
-    envVars:
-      - key: ENV
-        value: production
