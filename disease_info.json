@@ -1,0 +1,77 @@
+{
+    "Pepper bell Bacterial spot": {
+        "cause": "Caused by Xanthomonas bacteria, often spread by contaminated seeds and water.",
+        "symptoms": "Dark, water-soaked spots on leaves and fruit, leading to defoliation and reduced yield.",
+        "treatment": "Use disease-free seeds, apply copper-based fungicides, and practice crop rotation."
+    },
+    "Pepper bell healthy": {
+        "cause": "No disease detected.",
+        "symptoms": "Leaves are vibrant green with no visible spots, curling, or discoloration.",
+        "treatment": "Maintain good soil health and ensure proper irrigation."
+    },
+    "Potato Early-blight": {
+        "cause": "Fungal infection caused by Alternaria solani.",
+        "symptoms": "Brown concentric spots on leaves, leading to yellowing and wilting.",
+        "treatment": "Use resistant varieties, remove infected plants, and apply fungicides."
+    },
+    "Potato Late-blight": {
+        "cause": "Caused by Phytophthora infestans, a water mold.",
+        "symptoms": "Dark, water-soaked lesions on leaves and stems, leading to rapid plant death.",
+        "treatment": "Apply fungicides, remove infected plants, and avoid overhead irrigation."
+    },
+    "Potato healthy": {
+        "cause": "No disease detected.",
+        "symptoms": "Strong plant with healthy green leaves and no spots.",
+        "treatment": "Continue proper watering and fertilization."
+    },
+    "Tomato Bacterial spot": {
+        "cause": "Caused by Xanthomonas bacteria, commonly spread in warm, wet conditions.",
+        "symptoms": "Small water-soaked spots on leaves and fruit, leading to leaf drop and fruit rot.",
+        "treatment": "Use copper sprays, avoid overhead watering, and remove infected plants."
+    },
+    "Tomato Early-blight": {
+        "cause": "Fungal infection by Alternaria solani.",
+        "symptoms": "Dark, target-like spots on older leaves, causing yellowing and defoliation.",
+        "treatment": "Use fungicides, plant disease-resistant varieties, and rotate crops."
+    },
+    "Tomato Late-blight": {
+        "cause": "Caused by Phytophthora infestans, a highly destructive pathogen.",
+        "symptoms": "Greasy, water-soaked lesions on leaves and stems, often with white mold growth.",
+        "treatment": "Apply fungicides, remove infected plants, and avoid humid conditions."
+    },
+    "Tomato Leaf Mold": {
+        "cause": "Caused by Passalora fulva fungus.",
+        "symptoms": "Yellow spots on the upper side of leaves, with velvety mold underneath.",
+        "treatment": "Ensure good air circulation, reduce humidity, and apply fungicides."
+    },
+    "Tomato Septoria leaf spot": {
+        "cause": "Caused by Septoria lycopersici fungus.",
+        "symptoms": "Small, circular brown spots with gray centers on leaves, leading to leaf loss.",
+        "treatment": "Remove infected leaves, apply copper-based fungicides, and avoid wet foliage."
+    },
+    "Tomato Spider-mites (Two spotted spider-mite)": {
+        "cause": "Caused by Tetranychus urticae mites feeding on leaves.",
+        "symptoms": "Yellowing and speckled leaves, often with fine webbing.",
+        "treatment": "Spray plants with water, use neem oil or insecticidal soap."
+    },
+    "Tomato Target Spot": {
+        "cause": "Fungal infection caused by Corynespora cassiicola.",
+        "symptoms": "Dark concentric rings on leaves, stems, and fruit.",
+        "treatment": "Use fungicides, remove infected plant parts, and improve air circulation."
+    },
+    "Tomato Yellow Leaf Curl Virus": {
+        "cause": "Caused by a virus transmitted by whiteflies.",
+        "symptoms": "Upward curling leaves, yellowing, and stunted growth.",
+        "treatment": "Control whiteflies, use virus-resistant tomato varieties."
+    },
+    "Tomato mosaic virus": {
+        "cause": "A viral infection affecting tomato plants.",
+        "symptoms": "Mottled, distorted leaves and reduced fruit yield.",
+        "treatment": "Remove infected plants, avoid handling plants after touching infected ones."
+    },
+    "Tomato healthy": {
+        "cause": "No disease detected.",
+        "symptoms": "Leaves are green, strong, and free of spots or discoloration.",
+        "treatment": "Maintain good soil health and watering practices."
+    }
+}
