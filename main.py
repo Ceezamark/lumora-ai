@@ -12,13 +12,6 @@ import boto3
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
-app = FastAPI(
-    title="Lumora AI Plant Disease Detection API",
-    description="API for detecting plant diseases from images.",
-    version="1.0.0",
-    lifespan=lifespan
-)
-
 # Load the trained model
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "pdd.h5")
@@ -62,6 +55,14 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logging.error(f"Error loading model or data: {e}")
         raise RuntimeError(f"Error during startup: {e}")
+    yield
+
+app = FastAPI(
+    title="Lumora AI Plant Disease Detection API",
+    description="API for detecting plant diseases from images.",
+    version="1.0.0",
+    lifespan=lifespan
+)
 
 @app.get("/")
 async def health_check():
