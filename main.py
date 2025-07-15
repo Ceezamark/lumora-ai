@@ -9,10 +9,6 @@ import logging
 import os
 import boto3
 
-model = None
-class_labels = None
-disease_info = None
-
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
@@ -20,6 +16,7 @@ app = FastAPI(
     title="Lumora AI Plant Disease Detection API",
     description="API for detecting plant diseases from images.",
     version="1.0.0"
+    lifespan=lifespan
 )
 
 # Load the trained model
