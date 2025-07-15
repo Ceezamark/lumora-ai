@@ -1,7 +1,7 @@
 FROM python:3.10
 
 # Install OpenCV dependencies
-RUN apt-get install -y libgl1
+RUN apt-get update && apt-get install -y libgl1
 
 # Copy your app code
 COPY . .
