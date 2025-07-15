@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: lumora-ai
+    env: doker
+    branch: mastaer
