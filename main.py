@@ -9,6 +9,10 @@ import logging
 import os
 import boto3
 
+model = None
+class_labels = None
+disease_info = None
+
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
