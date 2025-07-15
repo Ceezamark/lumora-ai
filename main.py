@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 app = FastAPI(
     title="Lumora AI Plant Disease Detection API",
     description="API for detecting plant diseases from images.",
-    version="1.0.0"
+    version="1.0.0",
     lifespan=lifespan
 )
 
